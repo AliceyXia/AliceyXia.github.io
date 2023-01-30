@@ -1,0 +1,14 @@
+iframe {
+    border: 10px solid green inset;
+    width: 100%; 
+}
+h1{
+    font-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+img{
+    position: absolute;
+    right:0;
+    width:9%;
+}

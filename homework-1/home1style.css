@@ -1,0 +1,131 @@
+/* img{
+  position: relative;
+  width:min-content;
+} */
+.container{
+  display: flex;
+  gap:1em;
+  flex-flow:row wrap ;
+  justify-content: flex-start;
+
+  margin:0;
+  list-style: none;
+  font-size: 8pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(202, 202, 202);
+  padding: 0.2em;
+  box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(202, 202, 202),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.container :hover{
+  background-color: gray;
+}
+
+.firstrow{
+  display: flex;
+  gap:1em;
+  flex-flow:row wrap ;
+  justify-content: flex-end;
+ 
+  margin:0;
+  list-style: none;
+  font-size: 8pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(150, 150, 150);
+  box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(150, 150, 150),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+h2{
+  color:red;
+}
+
+.main{
+  display: flex;
+  gap:1em;
+  flex-flow:row wrap ;
+  justify-content: center;
+ 
+  margin:0;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(234, 234, 234);
+  border: 0.3em solid gray;
+  box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px gray,
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+img.stick{
+  width:100%;
+  border: 0.4em gray;
+  border-style: none solid none solid;
+}
+
+.last{
+  display: flex;
+  gap:1em;
+  flex-flow:row wrap ;
+  justify-content: center;
+ 
+  margin:0;
+  list-style:none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(234, 234, 234);
+  border: 0.3em solid gray;
+  box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px gray,
+  0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.notes{
+    display: flex;
+    gap:1em;
+    flex-flow:row wrap ;
+    justify-content: flex-end;
+   
+    margin:0;
+    list-style: none;
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(150, 150, 150);
+    box-shadow:inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(150, 150, 150),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+
+
+@media screen and (max-width: 657px) {
+  .container{
+     font-size: 4pt;
+     gap: .25em 1.2em;
+  }
+  img.stick{
+    width: 100%;
+    border:0;
+  }
+  p{
+    font-size:15%;
+  }
+}
+
+img.note{
+  width:2em;
+  position: relative;
+}
+
+body{
+  background-color: rgb(220, 220, 220);
+}
+
+p{
+  opacity: 0.15;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(85, 255, 0);
+}
+p:hover{
+opacity: 1;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:red;
+}
+
+audio{
+  display:none;}
