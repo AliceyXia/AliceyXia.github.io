@@ -12,3 +12,11 @@ img{
     right:0;
     width:9%;
 }
+@media screen and (max-width: 657px){
+    img{
+        width:35%;
+    }
+    iframe{
+        width:80%;
+    }
+}
