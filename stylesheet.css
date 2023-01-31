@@ -4,13 +4,13 @@ h1{
 }
 h2{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 5em;
 }
 
 ul{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
+    font-size: 3.5em;
     color:rgb(255, 191, 0) ;
+    list-style: square;
 }
 a{
     color: rgb(255, 191, 0);
@@ -31,6 +31,9 @@ a:after{
 
     ul{
         font-size: 2em;
+    }
+    h2{
+        font-size:2em;
     }
 }
 
