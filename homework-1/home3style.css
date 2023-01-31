@@ -16,7 +16,7 @@ body, html {
     background-size: cover;
   }
   .bg:hover{
-    background-image: url("/homework-1/Asset/Imgs/loading.gif");
+    background-image: url("/homework-1/Asset/Imgs/Loading.gif");
     opacity: 1;
   }
   
