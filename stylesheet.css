@@ -1,0 +1,47 @@
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10em;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 5em;
+}
+
+/* ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    color:rgb(255, 191, 0) ;
+} */
+a{
+    color: rgb(255, 191, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 38, 0);
+    text-decoration: none;
+}
+a:after{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 657px) {
+    h1{
+        font-size: 5em;
+    }
+
+    ul{
+        font-size: 2em;
+    }
+}
+
+.container{
+    display: flex;
+    gap:2em;
+    flex-direction: row;
+    margin:1em;
+    justify-content: flex-start;
+ 
+  margin:0;
+  list-style: none;
+ 
+}
