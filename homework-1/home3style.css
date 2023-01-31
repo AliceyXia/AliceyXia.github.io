@@ -28,4 +28,9 @@ body, html {
 
   audio{
     display:none;}
-  
+
+    @media screen and (max-width: 657px){
+      img{
+          width:15%;
+      }
+  }

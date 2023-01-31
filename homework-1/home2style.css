@@ -90,3 +90,8 @@ img{
     position: absolute;
     right:0;
 }
+@media screen and (max-width: 657px){
+    img{
+        width:15%;
+    }
+}
