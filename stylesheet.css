@@ -1,5 +1,7 @@
 
 ul{
+    font-family:Helvetica, sans-serif;
+    font-size: 3em;
     color:rgb(255, 191, 0) ;
     list-style: square;
 }
@@ -15,9 +17,49 @@ a:after{
     text-decoration: none;
 }
 
+#bigtitle{
+    font-family:Helvetica, sans-serif;
+    font-size: 10em;
+    margin:0 0.25em 0.25em 0;
+}
+
+#smalltitle{
+    font-family:Helvetica, sans-serif;
+    font-size:5.5em; 
+    margin:0.25em 0.25em;
+}
+
+
+section {
+    display: table;
+    width: 100%;
+  }
+
+header, .row {
+    display: flex;
+    gap:5em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* aligns all child elements (flex items) in a row */
+  }
+  
+  .col {
+    flex: 1;        /* distributes space on the line equally among items */
+  }
+
+
+
+  /* small screen */
+@media screen and (max-width:319px) {
+    #bigtitle{
         font-size: 5em;
     }
 
+    #smalltitle{
+        font-size:3.5em;}
+
+
     ul{
+        font-size: 3em;
     }
  }
