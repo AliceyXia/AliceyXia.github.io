@@ -5,7 +5,7 @@ body, html {
   }
   
   .bg {
-    background-image: url("/homework-1/Asset/Imgs/loading.png");
+    background-image: url("/homework-1/assest/imgs/loading.png");
     opacity: 0.7;
     transition: 0.5s;
   
@@ -16,7 +16,7 @@ body, html {
     background-size: cover;
   }
   .bg:hover{
-    background-image: url("/homework-1/Asset/Imgs/Loading.gif");
+    background-image: url("/homework-1/assest/imgs/Loading.gif");
     opacity: 1;
   }
   
