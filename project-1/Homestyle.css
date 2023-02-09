@@ -1,0 +1,105 @@
+#redhat{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 3em;
+    margin:-0.25em 0 0 0;
+}
+#notohead{
+    font-family: 'Noto Sans SC', sans-serif;
+    margin: 1em 0 0 0;
+    font-size: 15em;
+}
+
+
+
+/* smaller cellphones: */
+@media screen and (max-width: 769px){
+  #redhat{
+    font-size: 1em;
+    margin:-1em 0 0 0;
+  }
+  #notohead{
+    font-size:5.5em;
+    margin:2em 0 0 0;
+  }
+ }
+ 
+ /* medium screen laptop: */
+ @media screen and (min-width:1023px){
+    #redhat{
+    font-size: 3em;
+    margin:-0.25em 0 0 0;
+    }
+    #notohead{
+        margin:1em 0 0 0;
+        font-size: 15em;
+      }
+ }
+ 
+  /* large screen laptop: */
+  @media screen and (min-width:1919px){
+    #redhat{
+        font-size: 4em;
+        margin:-0.3em 0 0 0;
+      }
+      #notohead{
+        font-size:25em;
+        margin: 1em 0 0 0;
+      }
+ }
+
+ /* 4k: */
+ @media screen and (min-width:2449px){
+    #redhat{
+        font-size: 8em;
+        margin:-0.3em 0 0 0;
+      }
+      #notohead{
+        font-size:35em;
+        margin: 0.8em 0 0 0;
+      }
+ }
+ 
+ /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    width: 100%;
+    color: transparent;
+    text-shadow: 0 0 0.8em white;
+    mix-blend-mode:soft-light;
+  }
+
+.content:hover{ 
+    mix-blend-mode:hard-light;
+    color: transparent;
+    text-shadow: 0 0 2em white;
+    color:white;
+}
+
+.content:hover{
+    animation: 3.5s ease-in-out fadein;
+}
+
+@keyframes fadein {
+    0% {
+        opacity:30%;
+        color: white;
+      }
+  
+    100% {
+        opacity: 100%;
+        color: white;
+    }
+  }
+
+
+
+ 
