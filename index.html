@@ -5,8 +5,8 @@
     </head>
 
 <body>
-
-    <h1 id="bigtitle">WORKS...</h1>
+    <div id="cursor"></div>
+    <h1 id="bigtitle">WORKS</h1>
 
 <section>
 
@@ -18,15 +18,19 @@
     <div class="row">
     <div class="col">
         <ul>
-            <li><a href="homework-1/index.html">Story Telling</a></li>
-            <li><a href="project-1/index.html">On Beginnings</a></li>
+            <li><a href="homework-1/index.html">
+                <em>Exercise 1:</em><br>Story Telling</a></li>
+                <br>
+            <li><a href="project-1/index.html">
+               <em>Project 1:</em><br>On Beginnings</a></li>
             <li></li>
         </ul> 
     </div>
 
     <div class="col">
         <ul>
-            <li><a href="semantics/index.html">Semantics</a></li>
+            <li><a href="semantics/index.html">
+                <em>Exercise 1:</em><br>Semantics</a></li>
             <li></li>
             <li></li>
         </ul> 
@@ -37,5 +41,25 @@
 
 </section>
 </body>
+
+
+
+
+<script>
+    document.body.onmousemove = function(e) {
+  document.documentElement.style.setProperty (
+    '--x', (
+      e.clientX+window.scrollX
+    )
+    + 'px'
+  );
+  document.documentElement.style.setProperty (
+    '--y', (
+      e.clientY+window.scrollY
+    ) 
+    + 'px'
+  );
+}
+</script>
 
 </html>

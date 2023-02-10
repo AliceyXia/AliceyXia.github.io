@@ -3,14 +3,14 @@ ul{
     font-family:Helvetica, sans-serif;
     font-size: 3em;
     color:rgb(255, 191, 0) ;
-    list-style: square;
+    list-style:square;
 }
 a{
     color: rgb(255, 191, 0);
     text-decoration: none;
 }
 a:hover{
-    color: rgb(255, 38, 0);
+    color: rgb(255, 140, 69);
     text-decoration: none;
 }
 a:after{
@@ -49,17 +49,68 @@ header, .row {
 
 
 
-  /* small screen */
-@media screen and (max-width:319px) {
+
+ /* smaller cellphones: */
+@media screen and (max-width: 769px){
     #bigtitle{
         font-size: 5em;
     }
 
     #smalltitle{
-        font-size:3.5em;}
+        font-size:2em;}
+
+
+    ul{
+        font-size: 1em;
+    }
+ }
+ 
+ /* large screen laptop: */
+ @media screen and (min-width:1349px){
+    #bigtitle{
+        font-size: 8em;
+    }
+
+    #smalltitle{
+        font-size:4em;}
 
 
     ul{
         font-size: 3em;
     }
  }
+ 
+ /* 4k: */
+ @media screen and (min-width:2449px){
+    #bigtitle{
+        font-size: 20em;
+    }
+
+    #smalltitle{
+        font-size:8em;}
+
+
+    ul{
+        font-size: 4em;
+    }
+    header, .row {
+        gap:1em;
+      }
+ }
+ 
+/* cursor */
+ #cursor {
+    position: absolute;
+    width: 5em;
+    height: 5em;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    top: var(--y, 0);
+    left: var(--x, 0);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    mix-blend-mode: difference;
+    transition: transform .2s;
+    opacity: 80%;
+    pointer-events: none;
+  }
