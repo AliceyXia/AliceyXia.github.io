@@ -3,7 +3,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(204, 248, 254);
+    background-color: rgb(0, 0, 0);
 }
 
 .penrose {
@@ -13,7 +13,7 @@ html, body {
     font-size: 12px;
     top: -1em;
     left: -3em; 
-    color: rgb(253, 200, 225); 
+    color: rgb(87, 131, 142); 
     opacity:75%;
 }
 
@@ -61,26 +61,25 @@ html, body {
 @keyframes rotating {
     0% {
         transform: rotate(0deg);
-        color: rgb(253, 200, 225);
-    }
-
-    20%{
-        color:rgb(254, 154, 154);
-    }
-
-    50%{
+        color: rgb(87, 131, 142);
+      }
+      20% {
+        color: rgb(248, 232, 194);
+      }
+      40% {
+        color: rgb(87, 115, 142);
+      }
+      50% {
         transform: rotate(185deg);
-        color:rgb(255, 252, 153);
-    }
-
-    70%{
-        color:rgb(232, 179, 63);
-    }
-
-    100% {
+        color: rgb(87, 131, 142);
+      }
+      80% {
+        color: rgb(75, 84, 120);
+      }
+      100% {
         transform: rotate(360deg);
-        color: rgb(253, 200, 225);
-    }
+        color: rgb(87, 131, 142);
+      }
 }
 /* smaller cellphones: */
 @media screen and (max-width: 769px){
