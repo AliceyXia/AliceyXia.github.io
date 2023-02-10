@@ -1,0 +1,30 @@
+.toc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1em;
+    justify-content: space-between;
+}
+
+h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 5em;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+}
+/* .dropb{
+    background-color:transparent;
+    color: black;
+    padding: 1em;
+    font-size: 1em;
+    border: none;
+}
+
+.drop{
+    position: relative;
+    display: inline-block;
+} */
+
