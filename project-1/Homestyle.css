@@ -1,9 +1,9 @@
-#redhat{
+.redhat{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 3em;
     margin:-0.25em 0 0 0;
 }
-#notohead{
+.notohead{
     font-family: 'Noto Sans SC', sans-serif;
     margin: 1em 0 0 0;
     font-size: 15em;
@@ -13,64 +13,6 @@ body{
   background-color: black;
 }
 
-
-/* smaller cellphones: */
-@media screen and (max-width: 767px){
-  #redhat{
-    font-size: 1em;
-    margin:-1em 0 0 0;
-  }
-  #notohead{
-    font-size:6.5em;
-    margin:2em 0 0 0;
-  }
- }
- 
- /* medium screen laptop: */
- @media screen and (min-width:1023px){
-    #redhat{
-    font-size: 3em;
-    margin:-0.25em 0 0 0;
-    }
-    #notohead{
-        margin: 0.9em 0 0 0;
-        font-size: 15em;
-      }
- }
- 
-  /* large screen laptop: */
-  @media screen and (min-width:1919px){
-    #redhat{
-        font-size: 4em;
-        margin:-0.3em 0 0 0;
-      }
-      #notohead{
-        font-size: 25em;
-        margin: 0.5em 0 0 0;
-      }
- }
-
- /* 4k: */
- @media screen and (min-width:2449px){
-    #redhat{
-        font-size: 8em;
-        margin:-0.3em 0 0 0;
-      }
-      #notohead{
-        font-size:35em;
-        margin: 0.8em 0 0 0;
-      }
- }
-
- 
-
-/* #myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-  } */
   
 
   .content {
@@ -106,28 +48,52 @@ body{
         color: white;
     }
   }
-
-  /* body {
-    animation: 10000ms ease-in-out infinite color-change;
+  
+  /* smaller cellphones: */
+@media screen and (max-width: 767px){
+  .redhat{
+    font-size: 1em;
+    margin:-1em 0 0 0;
   }
+  .notohead{
+    font-size:6.5em;
+    margin:2em 0 0 0;
+  }
+ }
+ 
+ /* medium screen laptop: */
+ @media screen and (min-width:1023px){
+    .redhat{
+    font-size: 3em;
+    margin:-0.25em 0 0 0;
+    }
+    .notohead{
+        margin: 0.9em 0 0 0;
+        font-size: 15em;
+      }
+ }
+ 
+  /* large screen laptop: */
+  @media screen and (min-width:1919px){
+    .redhat{
+        font-size: 4em;
+        margin:-0.3em 0 0 0;
+      }
+    .notohead{
+        font-size: 25em;
+        margin: 0.5em 0 0 0;
+      }
+ }
 
-  @keyframes color-change {
-    0% {
-      background-color: rgb(0, 0, 0);
-    }
-    20% {
-      background-color: rgb(87, 131, 142);
-    }
-    40% {
-      background-color: rgb(248, 232, 194);
-    }
-    60% {
-      background-color: rgb(87, 131, 142);
-    }
-    80% {
-      background-color: rgb(71, 90, 105);
-    }
-    100% {
-      background-color: rgb(0, 0, 0);
-    }
-  } */
+ /* 4k: */
+ @media screen and (min-width:2449px){
+    .redhat{
+        font-size: 8em;
+        margin:-0.3em 0 0 0;
+      }
+    .notohead{
+        font-size:35em;
+        margin: 0.8em 0 0 0;
+      }
+ }
+  
