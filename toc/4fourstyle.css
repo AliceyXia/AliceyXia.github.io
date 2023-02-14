@@ -1,0 +1,15 @@
+hr{
+    border: 0;
+        height: 1px;
+        background: grey;
+        background-image: linear-gradient(to right, rgb(220, 220, 220), grey, rgb(220, 220, 220));
+}
+
+pre{
+    font-family: 'Gaegu', cursive;
+}
+a{
+    text-decoration: none;
+    font-family:'Gaegu', cursive;
+    color: grey;
+}
