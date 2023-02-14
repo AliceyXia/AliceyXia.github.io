@@ -1,3 +1,7 @@
+body{
+  background-color: black;
+}
+
 .redhat{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 3em;
@@ -9,13 +13,7 @@
     font-size: 15em;
 }
 
-body{
-  background-color: black;
-}
-
-  
-
-  .content {
+.content {
     position: relative;
     width: 100%;
     color: transparent;
