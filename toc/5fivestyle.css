@@ -1,0 +1,15 @@
+pre{
+    font-family:Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+a{
+    font-family:Helvetica, sans-serif;
+    text-decoration: none;
+    color: grey;
+}
+
+.left{
+    text-align:left;
+    float: left;
+}
