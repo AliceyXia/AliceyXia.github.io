@@ -17,6 +17,11 @@ a{
     float: right;
 }
 
-.left{
-    text-align:left;
-}
+@media screen and (max-width: 767px){
+  pre{
+    font-size: 0.5em;
+  }
+  a{
+    font-size: 0.5em;
+  }
+   }
