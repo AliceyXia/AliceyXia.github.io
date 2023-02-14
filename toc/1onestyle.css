@@ -1,0 +1,22 @@
+pre{
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    color: grey;
+}
+
+.right{
+    text-align:right;
+    float: right;
+}
+
+.left{
+    text-align:left;
+}
