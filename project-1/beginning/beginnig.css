@@ -35,6 +35,28 @@ body{
     animation: 3s ease-in-out fadein;
 }
 
+a {
+  position: relative;
+  width: 100%;
+  color: transparent;
+  text-shadow: 0 0 0.8em white;
+  mix-blend-mode:soft-light;
+  text-align:center;
+  text-decoration-line: none;
+}
+
+a:hover{ 
+  mix-blend-mode:hard-light;
+  color: transparent;
+  text-shadow: 0 0 2em white;
+  color:white;
+
+}
+
+a:hover{
+  animation: 3s ease-in-out fadein;
+}
+
 @keyframes fadein {
     0% {
         opacity:30%;
