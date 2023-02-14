@@ -2,8 +2,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap:1em;
+    flex: 0 1 auto;
     justify-content: space-between;
+    margin: 8em 0 0 0;
+    padding: 0.25em;
+    gap:0.25em;
+}
+
+h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 8em;  
 }
 
 h2{
@@ -13,8 +21,34 @@ h2{
 
 p{
     font-family: Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 0.5em;
+    margin:-0.25em 0 0 0;
 }
+
+details summary{
+    cursor:pointer;
+}
+
+details summary{
+    display: inline;
+}
+
+body{
+    cursor:help;
+}
+
+a:link{
+    color:rgb(252, 136, 78);
+    text-decoration-line: none;
+}
+a:visited {
+    color:grey;
+    
+  }
+a:hover{
+    color:rgb(241, 205, 0);
+}
+
 /* .dropb{
     background-color:transparent;
     color: black;
@@ -28,3 +62,32 @@ p{
     display: inline-block;
 } */
 
+
+/* smaller cellphones: */
+@media screen and (max-width: 769px){
+    h1{
+        font-size: 5.5em; 
+    }
+    h2{
+        font-size: 2em;
+    }
+    p{
+        font-size: 0.7em;
+    }
+
+ }
+ 
+ 
+ 
+ /* 4k: */
+ @media screen and (min-width:2449px){
+    h1{
+        font-size: 10em; 
+    }
+    h2{
+        font-size: 7em;
+    }
+    p{
+        font-size: 1.5em;
+    }
+ }
