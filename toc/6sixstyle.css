@@ -60,3 +60,9 @@ body {
   p{
     font-family: Helvetica, sans-serif;
 }
+
+a{
+  font-family:Helvetica, sans-serif;
+  text-decoration: none;
+  color: grey;
+}
