@@ -1,0 +1,13 @@
+pre{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    color: grey;
+}
+.right{
+    text-align:right;}
