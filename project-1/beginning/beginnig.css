@@ -59,7 +59,7 @@ a:hover{
 
 @keyframes fadein {
     0% {
-        opacity:30%;
+        opacity:40%;
         color: white;
       }
   
@@ -131,10 +131,14 @@ a:hover{
   position: fixed;
   pointer-events: none;
   background: radial-gradient(
-    circle 2vmax at var(--cursorX) var(--cursorY),
+    circle 2.5vmax at var(--cursorX) var(--cursorY),
     rgba(209, 209, 209, 0) 0%,
-    rgba(220, 255, 0, 0.5) 0%,
-    rgba(0,0,0,.95) 100%
+    rgba(234, 255, 0, 0.55) 0%,
+    rgba(255, 255, 255, 0) 100%
     
   )
+}
+
+a {
+  cursor: help;
 }
