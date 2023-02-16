@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .redhat{
+      font-family: 'Red Hat Display', sans-serif;
+      font-size: 3em;
+      padding: 5em 0 0 0 ;
+      
+  }
+  .notohead{
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 15em;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .blur{
+    width: 100%;
+    color:transparent;
+    text-shadow: 0 0 0.8em rgb(150, 150, 150);
+    mix-blend-mode:soft-light;
+    text-align:center;
+  }
+
+  a{
+    color:rgb(38, 38, 38);
+    text-decoration-line: none;
+  }
+
+/* smaller cellphones: */
+@media screen and (max-width: 769px){
+
+}
+
+/* large screen laptop: */
+@media screen and (min-width:1349px){
+
+}
+
+/* 4k: */
+@media screen and (min-width:2449px){
+
+}
+
+
+  a {
+    cursor: help;
+  }
