@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .redhat{
+      font-family: 'Red Hat Display', sans-serif;
+      font-size: 2em;
+      
+  }
+  .noto{
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size:1.5em;
+  }
+
+  .maintext{
+    text-align: center;
+    margin: 15.5em 0 0 2em ;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  a{
+    color:rgb(0, 0, 0,0.6);
+    text-decoration-line: none;
+  }
+
+  .fadeinandout {
+    opacity: 1;
+    animation: fade 5.5s linear forwards;
+    }
+
+    @keyframes fade {
+    0%,100% { opacity: 0 }
+    30% { opacity: 1 }
+    50% { opacity: 1 }
+    }
+
+  /* .fadein {
+    animation: fadeIn 5.5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
+  }
+ 
+
+  @keyframes fadeOut {
+    0% { opacity: 100%; }
+    100% { opacity: 0%; }
+  } */
+ 
+/* smaller cellphones: */
+@media screen and (max-width: 769px){
+  .maintext{
+    margin: 12em 0 0 0 ;
+  }
+  .redhat{
+    font-size: 0.8em;
+  }
+  .noto{
+    font-size:0.6em;
+  }
+}
+
+
+/* 4k: */
+@media screen and (min-width:2449px){
+  .maintext{
+    margin: 30em 0 0 0 ;
+  }
+  .redhat{
+    font-size: 5em;
+  }
+  .noto{
+    font-size:3em;
+  }
+}
+
+  a {
+    cursor:help;
+  }
