@@ -5,44 +5,75 @@ body{
   .redhat{
       font-family: 'Red Hat Display', sans-serif;
       font-size: 3em;
-      padding: 5em 0 0 0 ;
       
   }
-  .notohead{
+  .noto{
       font-family: 'Noto Sans SC', sans-serif;
-      font-size: 15em;
+      font-size:2em;
   }
 
-  .center{
+  .maintext{
     text-align: center;
+    margin: 25em 0 0 0 ;
   }
-
-  .blur{
-    width: 100%;
-    color:transparent;
-    text-shadow: 0 0 0.8em rgb(150, 150, 150);
-    mix-blend-mode:soft-light;
-    text-align:center;
-  }
+  
 
   a{
-    color:rgb(38, 38, 38);
+    color:rgb(0, 0, 0,0.5);
     text-decoration-line: none;
+  }
+  a:hover{
+    color:rgb(0, 0, 0,0.6);
+  }
+
+  .fadein {
+    animation: fadeIn 5.5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
+  }
+ 
+  h3{
+    font-size: 0.5em;
+    font-family: 'Red Hat Display', sans-serif;
+    color:rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 2em;
   }
 
 /* smaller cellphones: */
 @media screen and (max-width: 769px){
-
+  .maintext{
+    margin: 13em 0 0 0 ;
+  }
+  .redhat{
+    font-size: 1.5em;
+  }
+  .noto{
+    font-size:0.5em;
+  }
 }
 
 /* large screen laptop: */
 @media screen and (min-width:1349px){
-
+  .maintext{
+    margin: 20em 0 0 0 ;
+  }
 }
 
 /* 4k: */
 @media screen and (min-width:2449px){
-
+  .maintext{
+    margin: 30em 0 0 0 ;
+  }
+  .redhat{
+    font-size: 5em;
+  }
+  .noto{
+    font-size:3em;
+  }
 }
 
 
