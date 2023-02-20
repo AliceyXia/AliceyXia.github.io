@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .redhat{
+      font-family: 'Red Hat Display', sans-serif;
+      font-size: 2em;
+      
+  }
+  .noto{
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size:1.5em;
+  }
+
+  .maintext{
+    text-align: left;
+    margin: 15.5em 0 0 2em ;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  a{
+    color:rgb(0, 0, 0,0.6);
+    text-decoration-line: none;
+  }
+
+  #box {
+    /* height: 180px;
+    width: 400px;
+    margin: 10px -400px; */
+    animation-name: move;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    /* animation-direction:left; */
+    animation-timing-function: linear;
+    animation-play-state: paused;
+  }
+  
+  #box:hover {
+    animation-play-state: running;
+
+  }
+
+  @keyframes move {
+    0% {
+    transform:translateY(0%);
+    }
+    100% {
+    transform:translateY(-100%);
+    }
+  }
+
+  .fadeinandout {
+    opacity: 1;
+    animation: fade 12s linear forwards;
+    }
+
+    @keyframes fade {
+    0%,100% { opacity: 0 }
+    30% { opacity: 1 }
+    50% { opacity: 1 }
+    }
+
+
+@media screen and (max-width: 769px){
+  .maintext{
+    margin: 12em 0 0 0 ;
+  }
+  .redhat{
+    font-size: 0.8em;
+  }
+  .noto{
+    font-size:0.6em;
+  }
+}
+
+
+/* 4k: */
+@media screen and (min-width:2449px){
+  .maintext{
+    margin: 30em 0 0 0 ;
+  }
+  .redhat{
+    font-size: 5em;
+  }
+  .noto{
+    font-size:3em;
+  }
+}
+
+  a {
+    cursor:help;
+  }
