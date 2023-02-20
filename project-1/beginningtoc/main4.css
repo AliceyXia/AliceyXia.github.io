@@ -90,7 +90,10 @@ body{
     font-size: 5em;
   }
   .noto{
-    font-size:3em;
+    font-size:3em; 
+  }
+  #box {
+    animation-play-state: running;
   }
 }
 
