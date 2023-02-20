@@ -57,7 +57,7 @@ body{
       
       @keyframes move {
         0% {
-        transform:translateY(-100%);
+        transform:translateY(-50%);
         }
         100% {
         transform:translateY(100%);
@@ -91,6 +91,9 @@ body{
   }
   .noto{
     font-size:3em;
+  }
+  #box {
+    animation-play-state: running;
   }
 }
 
