@@ -87,10 +87,10 @@ body{
     margin: 30em 0 0 0 ;
   }
   .redhat{
-    font-size: 5em;
+    font-size: 3em;
   }
   .noto{
-    font-size:3em; 
+    font-size:2em; 
   }
   #box {
     animation-play-state: running;
