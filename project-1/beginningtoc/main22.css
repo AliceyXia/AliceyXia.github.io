@@ -1,0 +1,100 @@
+.pop-outin {
+    animation: 2s anim-popoutin ease forwards;
+    animation-delay: 2s;
+  }
+  
+  @keyframes anim-popoutin {
+    0% {
+      color: rgba(0, 0, 0, 0.6);
+      transform: scale(0);
+      opacity: 0;
+      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+    25% {
+      color: rgb(170, 170, 170);
+      transform: scale(2);
+      opacity: 1;
+      text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+      color: rgba(0, 0, 0, 0.6);
+      transform: scale(1);
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      /* animate nothing to add pause at the end of animation */
+      transform: scale(1);
+      opacity: 1;
+      text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .redhat{
+      font-family: 'Red Hat Display', sans-serif;
+      font-size: 2em;
+      
+  }
+  .noto{
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size:1.5em;
+  }
+
+  .maintext{
+    text-align: center;
+    margin: 9em 0 0 2em ;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  a{
+    color:rgb(0, 0, 0,0.6);
+    text-decoration-line: none;
+  }
+
+  .fadeinandout {
+    opacity: 1;
+    animation: fade 10s linear forwards;
+    }
+
+    @keyframes fade {
+    0%,100% { opacity: 0 }
+    30% { opacity: 1 }
+    50% { opacity: 1 }
+    }
+
+
+/* smaller cellphones: */
+@media screen and (max-width: 769px){
+  .maintext{
+    margin: 8em 0 0 0 ;
+  }
+  .redhat{
+    font-size: 0.8em;
+  }
+  .noto{
+    font-size:0.6em;
+  }
+}
+
+
+/* 4k: */
+@media screen and (min-width:2449px){
+  .maintext{
+    margin: 12em 0 0 0 ;
+  }
+  .redhat{
+    font-size: 3em;
+  }
+  .noto{
+    font-size:2em;
+  }
+}
+
+  a {
+    cursor:help;
+  }
