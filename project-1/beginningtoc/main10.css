@@ -63,7 +63,11 @@ body{
   .noto{
     font-size:0.6em;
   }
+  .resizer {
+    width: 350px;
+    height: 350px;}
 }
+
 
 
 /* 4k: */
