@@ -27,7 +27,7 @@ body{
 
   .fadeinandout {
     opacity: 1;
-    animation: fade 5.5s linear forwards;
+    animation: fade 5s linear forwards;
     }
 
     @keyframes fade {
