@@ -108,11 +108,11 @@ a:hover{
  /* 4k: */
  @media screen and (min-width:2449px){
     .redhat{
-        font-size: 8em;
+        font-size: 6em;
         margin:-0.3em 0 0 0;
       }
     .notohead{
-        font-size:35em;
+        font-size:30em;
         margin: 0.8em 0 0 0;
       }
  }
