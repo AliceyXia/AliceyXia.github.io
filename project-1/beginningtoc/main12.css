@@ -65,13 +65,13 @@ body{
 /* 4k: */
 @media screen and (min-width:2449px){
   .maintext{
-    margin: 30em 0 0 0 ;
+    margin: 5em 0 0 0 ;
   }
   .redhat{
-    font-size: 5em;
+    font-size: 3em;
   }
   .noto{
-    font-size:3em;
+    font-size:2em;
   }
 }
 
