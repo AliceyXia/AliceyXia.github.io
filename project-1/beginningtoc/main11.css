@@ -73,6 +73,9 @@ body{
   .noto{
     font-size:0.6em;
   }
+  #box {
+    animation-play-state: running;
+  }
 }
 
 
@@ -82,10 +85,13 @@ body{
     margin: 30em 0 0 0 ;
   }
   .redhat{
-    font-size: 5em;
+    font-size: 3em;
   }
   .noto{
     font-size:3em;
+  }
+  #box {
+    animation-play-state: running;
   }
 }
 
