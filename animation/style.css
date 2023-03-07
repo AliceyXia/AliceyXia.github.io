@@ -1,0 +1,159 @@
+body {
+    background-color: black;
+  }
+
+  .ghost1{
+    display:flex;
+    justify-content: center;
+    height: 30vh;
+    animation: fadein 5.5s ease-in-out infinite, moving1 4.5s ease-in-out infinite;
+  }
+
+  .ghost2{
+    display:flex;
+    justify-content: left;
+    height: 40vh;
+    animation:moving2 8.5s ease-in-out infinite;
+  }
+
+  .ghost3{
+    display:flex;
+    margin:0 0 0 10vh;
+    justify-content: left;
+    height: 20vh;
+    animation:moving3 15.5s ease-in-out infinite;
+  }
+
+  .ghost4{
+    position: relative;
+    top:-90vh;
+    height:100vh;
+    width: 100vh;
+    animation:fadein 12s ease-in-out infinite;
+  }
+
+  @keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+
+  @keyframes moving1 {
+    0% {
+        transform: scale(80%);
+    }
+    50% {
+        transform: scale(65%);
+    }
+    100%{
+        transform: scale(80%);
+    }
+  }
+
+  @keyframes moving2 {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(-180deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+  }
+
+  @keyframes moving3 {
+    0% {
+        transform: rotateZ(20deg);
+    }
+    50% {
+        transform: rotateZ(360deg);
+    }
+    100% {
+        transform: rotateZ(20deg);
+    }
+  }
+
+  @keyframes colorchange1 {
+    0% {
+      fill: default;
+    }
+    50% {
+      fill: rgb(255, 186, 226, 0.8);
+    }
+    100%{
+        fill: default;
+    }
+}
+
+@keyframes colorchange2 {
+    0% {
+      fill: default;
+    }
+    50% {
+      fill: rgba(250, 255, 183, 0.8);
+    }
+    100%{
+        fill: default;
+    }
+}
+
+@keyframes colorchange3 {
+    0% {
+      fill: default;
+    }
+    50% {
+      fill: rgba(183, 243, 255, 0.8);
+    }
+    100%{
+        fill: default;
+    }
+}
+
+@keyframes colorchange4 {
+    0% {
+      fill: default;
+    }
+    50% {
+      fill: rgba(70, 70, 70, 0.8);
+    }
+    100%{
+        fill: default;
+    }
+}
+.ghost1:hover{
+    cursor:help;
+}
+.ghost2:hover{
+    cursor:help;
+}
+.ghost3:hover{
+    cursor:help;
+}
+.ghost4:hover{
+    cursor:help;
+}
+
+
+svg:hover{
+    opacity:15%;
+}
+
+.cls-1{
+    animation:colorchange1 5.5s ease-in-out infinite;
+}
+.cls-3{
+    animation:colorchange2 5.5s ease-in-out infinite;
+}
+.cls-5{
+    animation:colorchange3 5.5s ease-in-out infinite;
+}
+.cls-7{
+    animation:colorchange4 5.5s ease-in-out infinite;
+}
