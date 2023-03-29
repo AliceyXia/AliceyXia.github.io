@@ -2,7 +2,7 @@
 
 const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
-	const collectionList = document.getElementById('collectionimg')
+	const collectionList = document.getElementById('1935')
 
 
 	// Loop through each item in the collection array
@@ -11,8 +11,7 @@ const renderItems = (collection) => {
 
 		const itemDetails =
 			`
-			<a href="https://www.google.com/"><img src="${item.imgLink}"></a>
-			
+				<img src="${item.imgLink}"></a>
 				<p class="greycliffregular">${item.name}</p>
 				
 			`
@@ -24,7 +23,7 @@ const renderItems = (collection) => {
 }
 
 // Fetch gets your JSON file…
-fetch('assets/full.json')
+fetch('assets/1935.json')
 	.then(response => response.json())
 	.then(collection => {
 		// And passes the data to the function, above!
@@ -33,4 +32,3 @@ fetch('assets/full.json')
 
 
 
-	// <img src="${item.imgLink}"></a>

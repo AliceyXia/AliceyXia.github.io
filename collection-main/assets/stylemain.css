@@ -35,9 +35,9 @@ h1 {
 
 p{
 	color:rgb(152, 104, 16);
-	font-size: 1em; 
+	font-size: 0.5em; 
 	font-size: 10%;
-	padding-top: 0.5em;
+	padding: 0.5em;
 }
 
 hr{
@@ -65,13 +65,6 @@ h2 {
 }
 
 em { font-style: italic,bold }
-
-img{
-	width: 100%;
-	height: auto;
-	box-shadow: 0 0.5vw 1vw rgb(0 0 0 / 0.5);
-}
-
 
 ul {
 	display: grid;
@@ -136,6 +129,13 @@ h3{
 }
 
 
+picture{
+	padding:3em 0em 3em 0em;
+	width: 100%;
+	box-shadow: none;
+	position: relative;
+}
+
 
 @media screen and (min-width: 1200px) {
 	ul{
@@ -176,6 +176,9 @@ h3{
 		filter: sepia(0%);
 		transition: 0.3s;
 	}
+	picture{
+		padding:5.5em 0em 5.5em 0em;
+	}
 }
 
 @media(prefers-color-scheme:dark){
@@ -199,9 +202,6 @@ h3{
 	}
 	.title{
 		background-color: rgba(0, 0, 0, 0.9);
-	}
-	img{
-		box-shadow: 0 0.5vw 1vw rgba(150, 150, 150, 0.5);
 	}
 	a{
 		color:white;
