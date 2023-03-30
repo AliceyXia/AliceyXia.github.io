@@ -11,7 +11,7 @@ const renderItems = (collection) => {
 
 		const itemDetails =
 			`
-			<a href="https://www.are.na/alice-xia-wz4p1huxjl0/modern-sketches-full-archive"target="_blank"><img src="${item.imgLink}"></a>
+			<a href="https://www.are.na/alice-xia-wz4p1huxjl0/modern-sketch-full-archive"target="_blank"><img src="${item.imgLink}"></a>
 			
 				<p class="greycliffregular bold">${item.name}</p>
 				<p class="greycliffregular">${item.authors}</p>
