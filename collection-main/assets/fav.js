@@ -2,7 +2,7 @@
 
 const renderItems = (collection) => {
 	// The `ul` where the items will be inserted
-	const collectionList = document.getElementById('color')
+	const collectionList = document.getElementById('fav')
 
 
 	// Loop through each item in the collection array
@@ -24,7 +24,7 @@ const renderItems = (collection) => {
 }
 
 // Fetch gets your JSON file…
-fetch('assets/color.json')
+fetch('assets/fav.json')
 	.then(response => response.json())
 	.then(collection => {
 		// And passes the data to the function, above!

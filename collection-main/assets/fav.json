@@ -1,0 +1,61 @@
+[
+    {
+		"name":"Modern Sketch 1st Issue",
+		"year":1934,
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/f/f5/Modernsketch1_1.jpg"
+	}
+    ,
+	{
+		"name":"Modern Sketch 9th Issue",
+		"year":1934,
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/b/bb/Modernsketch9_1.jpg"
+	}
+    ,
+	{
+		"name":"Modern Sketch 11st Issue",
+		"year":1934,
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/d/df/Modernsketch11_2.jpg"
+	}
+    ,
+	{
+		"name":"Modern Sketch 13rd Issue",
+		"year":1935,
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/3/38/Modernsketch13_2.jpg"
+	}	
+    ,
+	{
+		"name":"Modern Sketch 14th Issue",
+		"year":1935,
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/e/ea/Modernsketch14_1.jpg"
+	}
+    ,
+	{
+		"name":"Modern Sketch 14th Issue",
+		"year":1935,
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/c/c6/Modernsketch14_2.jpg"
+	}
+    ,
+	{
+		"name":"Modern Sketch 15th Issue",
+		"year":1935,
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/6/6c/Modernsketch15_1.jpg"
+	}
+    ,
+	{
+		"name":"Modern Sketch 17th Issue",
+		"year":1935,
+		"imgLink":"https://upload.wikimedia.org/wikipedia/commons/7/7a/Modernsketch17_1.jpg"
+	}
+    ,
+    {
+        "name":"Modern Sketch 25th Issue",
+        "year":1936,
+        "imgLink":"https://upload.wikimedia.org/wikipedia/commons/9/95/Modernsketch25_1.jpg"
+    }
+    ,
+    {
+        "name":"Modern Sketch 33rd Issue",
+        "year":1936,
+        "imgLink":"https://upload.wikimedia.org/wikipedia/commons/f/fd/Modernsketch33_1.jpg"
+    }
+]
