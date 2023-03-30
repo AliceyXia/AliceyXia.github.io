@@ -52,7 +52,7 @@ hr{
 
 h2 { 
 	color:rgb(50, 50, 50);
-	font-size:.5em;
+	font-size:1em;
 }
 
 .cncharacter{
@@ -129,7 +129,7 @@ h3{
 
 
 picture{
-	padding:3em 0em 3em 0em;
+	padding:7.5em 0em 7.5em 0em;
 	width: 100%;
 	box-shadow: none;
 	position: relative;

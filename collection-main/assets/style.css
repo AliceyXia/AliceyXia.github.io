@@ -42,9 +42,9 @@ h1 {
 
 p{
 	color:rgb(152, 104, 16);
-	font-size: 1em; 
+	font-size: 0.8em; 
 	font-size: 10%;
-	padding-top: 0.5em;
+	padding: 0.5em 0 0em 0;
 }
 
 hr{
@@ -156,6 +156,12 @@ h3{
 	margin: 0 0 1vw 0;
 }
 
+.bold{
+	font-weight: bold;
+	font-size: 80%;
+}
+
+
 
 @media screen and (min-width: 1200px) {
 	ul{
@@ -175,8 +181,8 @@ h3{
 		border: 0.3vw solid rgb(210, 154, 51);
 	}
 	p{
-		font-size: 1.5em; 
-		padding-top: 0.25em;
+		font-size: 0.85em;  
+		padding: 0.75em 0 0 0;
 	}
 	img{
 		width: 90%;
@@ -204,6 +210,9 @@ h3{
 	img:hover{
 		transform: scale(125%);
 		transition: 0.3s;
+	}
+	.bold{
+		font-size: 150%;
 	}
 }
 

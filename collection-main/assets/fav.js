@@ -11,9 +11,9 @@ const renderItems = (collection) => {
 
 		const itemDetails =
 			`
-				<img src="${item.imgLink}"></a>
-				<p class="greycliffregular">${item.name}</p>
-                <p class="greycliffregular">${item.year}</p>
+            <img src="${item.imgLink}"></a>
+            <p class="greycliffregular bold">${item.name}</p>
+            <p class="greycliffregular">Year: ${item.year}</p>
 				
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert

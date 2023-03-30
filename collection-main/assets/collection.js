@@ -13,7 +13,11 @@ const renderItems = (collection) => {
 			`
 			<a href="https://www.are.na/alice-xia-wz4p1huxjl0/modern-sketches-full-archive"target="_blank"><img src="${item.imgLink}"></a>
 			
-				<p class="greycliffregular">${item.name}</p>
+				<p class="greycliffregular bold">${item.name}</p>
+				<p class="greycliffregular">${item.authors}</p>
+				<p class="greycliffregular">Price: ${item.cost}</p>
+				<p class="greycliffregular">Year: ${item.year}</p>
+				
 				
 			`
 		listItem.insertAdjacentHTML('beforeend', itemDetails) // Which can we then insert
