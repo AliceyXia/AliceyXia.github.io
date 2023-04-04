@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    color:white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    padding:1vw;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 1200px) {
+    h1{
+        font-size: 4.5em;
+        padding:0.5vw;
+    }
+    img{
+        width: 70%;
+    }
+}
