@@ -1,0 +1,83 @@
+:root{
+    --space:2em;
+    --title:2.5em;
+    --subtitle:0.5em;
+}
+body{
+    padding:var(--space);
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.figure{
+    width:100%;
+    height: 25vh;
+}
+
+figcaption{
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+
+h1{
+    font-size: var(--title);
+    letter-spacing: -0.03em;
+	line-height: 95%;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif;
+}
+
+h2{
+    font-size: var(--subtitle) ;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif;
+}
+
+a{
+    font-size: calc(var(--subtitle)* 2);
+    letter-spacing: -0.03em;
+	line-height: 95%;
+    font-family:Helvetica, sans-serif;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+
+#yellow{
+    fill:yellow;
+    fill-opacity: 50%;
+}
+
+#purple{
+    fill:rgb(255, 9, 255);
+    opacity: 80%;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .figure{
+        width:100%;
+        height: 55vh;
+    }
+    .container{
+        gap:calc(var(--space)*2);
+    }
+    h1{
+        font-size: calc(var(--title)*2);
+        margin-top: 0em;
+    }
+    h2{
+        font-size: calc(var(--subtitle)*2) ;
+    }
+    a{
+        font-size: calc(var(--subtitle)* 3);
+    }
+    body{
+        padding:calc(var(--space)/2);
+    }
+}

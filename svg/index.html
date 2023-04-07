@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="reset" href="../common/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SVG Art</title>
+</head>
+
+<body>
+<head>
+    <h1>SVG ART</h1>
+</head>
+
+<main>
+    <div class="container">
+        <figure>
+            <img class="figure" src="artwork.svg" alt="a SVG practice drawing">
+            <figcaption>
+                <h2>Julije Knifer<br>
+                    Meander No. 5<br>
+                    1960</h2>
+                <a href="https://www.moma.org/collection/works/173188">Original Art ▶︎</a>
+            </figcaption>
+        </figure>  
+
+        <figure>
+            <svg class="figure" viewBox="0 0 350 300" width="350" height="300" xmlns="http://www.w3.org/2000/svg">
+                <filter id="blur">
+                    <feGaussianBlur stdDeviation="5" />
+                </filter>
+                <rect id="yellow" x="0" y="0" width="350" height="300" filter="url(#blur)" />
+                <rect id="purple" x="25" y="25" width="300" height="250" fill="wheat" filter="url(#blur)"/>
+                <rect id="yellow" x="100" y="50" width="25" height="250"  filter="url(#blur)"/>
+                <rect id="yellow" x="220" y="0" width="25" height="250"  filter="url(#blur)"/>
+            </svg>
+            <figcaption>
+                <h2>Altered SVG</h2>
+            </figcaption>
+        </figure>  
+        </div>
+</main>
+    
+    
+</body>
+</html>
