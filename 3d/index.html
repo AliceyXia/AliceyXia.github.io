@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@fb96ab2/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item
+          id="model"
+          response-type="arraybuffer"
+          src="https://cdn.glitch.global/718b1e3b-292f-4775-8035-67ba190d6d6f/marble.glb?v=1681768781642"
+        ></a-asset-item>
+        <img
+          id="skytexture"
+          src="https://cdn.glitch.me/718b1e3b-292f-4775-8035-67ba190d6d6f/cc6a5257-c5a2-4ec0-9b74-fe1232e62f8e.image.png?v=1681397699102"
+        />
+      </a-assets>
+
+      <a-sky src="#skytexture"> </a-sky>
+
+      <a-entity
+        camera=""
+        position="0.05115 0.61115 1.74418"
+        wasd-controls=""
+        rotation="-12.261296815799618 8.938141604040844 0"
+        look-controls=""
+        aframe-injected=""
+        data-aframe-inspector-original-camera=""
+      ></a-entity>
+      <a-entity gltf-model="#model" scale="2 2 2"></a-entity>
+    </a-scene>
+  </body>
+</html>
