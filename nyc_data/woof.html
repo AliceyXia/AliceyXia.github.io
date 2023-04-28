@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="reset" href="../common/reset.css">
+    <link rel="stylesheet" href="woof.css">
+    <script defer src="assets/random.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    <title>WOOF</title>
+</head>
+
+
+<body>
+
+<center>    
+        <div>
+        <h2> HI! MY NAME IS :</h2>
+        <h1 class="random"></h1>
+        </div>
+       
+        <div>
+        <button onclick="location.reload();">WOOF!</button>
+        <a href="index.html">
+            <button>WOOF?</button>
+          </a> 
+        </div>
+</center>  
+
+    <div class="container">
+        <model-viewer src="assets/img/golden.glb" ar 
+        ar-modes="webxr scene-viewer quick-look"  
+        camera-orbit="-88.05deg 44.53deg 2.713m" 
+        camera-controls poster="poster.webp" 
+        shadow-intensity="1" min-camera-orbit="auto 0deg 2.785m" 
+        max-camera-orbit="auto 82deg auto" 
+        auto-rotate> </model-viewer>
+    </div>
+
+
+</body>
+</html>
