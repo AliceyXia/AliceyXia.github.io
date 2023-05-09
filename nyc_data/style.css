@@ -20,6 +20,15 @@ header{
 	justify-content: space-between;
 }
 
+p{
+	font-family: Helvetica, sans-serif;
+	line-height: 98%;
+	font-size:0.03em;
+	padding: 0;
+	margin: 0;
+	color:white;
+}
+
 /* .yellow{
 	background-color: rgb(255, 196, 0);
 	object-fit: cover;
@@ -48,21 +57,46 @@ header{
 	align-self: end;
 	color: white;
 } */
-
+/* 
 .flex{
 	flex-direction: column;
 	flex-wrap: wrap;
 	column-gap: 10em;
 	justify-content: center;
 	justify-items: center;
+} */
+
+.container{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 0;
+  	margin-top: 12.5em;
+}
+
+.item{
+	text-align:left;
+	width: 35vw;
+	height: 10vh;
+}
+
+h2{
+	font-family: Helvetica, sans-serif;
+	font-size:1em;
+	line-height: 99%;
+	margin:0;
+	padding-bottom:0.3em;
+	text-transform: uppercase;
+	color:white;
 }
 
 img{
 	width:80%;
+	margin-top:1em;
 }
 
 img{
-	animation: bounce 2s ease infinite;
+	animation: bounce 2s ease-in-out;
 }
 
 .big{
@@ -73,12 +107,13 @@ img{
 
 @keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-35px);}
+	40% {transform: translateY(-25px);}
 	60% {transform: translateY(-20px);}
 }
 
 a:hover{
-	filter: opacity(70%)
+	filter: opacity(70%);
+	animation: bounce 2s ease-in-out;
 }
 
 a{
@@ -94,37 +129,32 @@ canvas {
 	display: block;
   }
 
-  .ping {
-	animation: ping 3s ease-in-out both;
-}
- 
-@keyframes ping {
-	0% {
-	  transform: scale(2);
-	  opacity: 0;
-	}
 
-	100% {
-	  transform: scale(1);
-	  opacity: 1;
-	}
-  }
   
 @media screen and (min-width: 600px){
 	h1{
-		font-size: 1.3em;
+		font-size: 2em;
 	}
 
 	img{
-		width: 30%;
+		width: 50%;
 	}
 	main{
 		margin-top: 10em;
 	}
+	h2{
+		font-size:1.5em;
+	}
+	p{
+		font-size:1em;
+	}
+	.container{
+		margin-top: 15em;
+	}
 }
 @media screen and (min-width: 1200px){
 	h1{
-		font-size: 2em;
+		font-size: 2.5em;
 	}
 
 	.yellow{
@@ -132,9 +162,19 @@ canvas {
 	}
 
 	img{
-		width: 30%;
+		width: 40%;
+		animation:none;
 	}
 	main{
 		margin-top: 12em;
+	}
+	h2{
+		font-size:2em;
+	}
+	p{
+		font-size:1em;
+	}
+	.container{
+		margin-top: 15em;
 	}
 }
