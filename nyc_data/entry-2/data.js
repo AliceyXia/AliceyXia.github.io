@@ -1,33 +1,33 @@
 var trace1 = {
     
     x: [
-        '*1995*', 
-        '*1996*', 
-        '*1997*', 
-        '*1998*', 
-        '*1999*',
-        '*2000*',
-        '*2001*',
-        '*2002*',
-        '*2003*',
-        '*2004*',
-        '*2005*',
-        '*2006*',
-        '*2007*',
-        '*2008*',
-        '*2009*',
-        '*2010*',
-        '*2011*',
-        '*2012*',
-        '*2013*',
-        '*2014*',
-        '*2015*',
-        '*2016*',
-        '*2017*',
-        '*2018*',
-        '*2019*',
-        '*2020*',
-        '*2021*',
+        '▸1995', 
+        '▸1996', 
+        '▸1997', 
+        '▸1998', 
+        '▸1999',
+        '▸2000',
+        '▸2001',
+        '▸2002',
+        '▸2003',
+        '▸2004',
+        '▸2005',
+        '▸2006',
+        '▸2007',
+        '▸2008',
+        '▸2009',
+        '▸2010',
+        '▸2011',
+        '▸2012',
+        '▸2013',
+        '▸2014',
+        '▸2015',
+        '▸2016',
+        '▸2017',
+        '▸2018',
+        '▸2019',
+        '▸2020',
+        '▸2021',
     ],
     y: [
         3, 
@@ -123,7 +123,7 @@ var trace1 = {
 var data = [ trace1 ];
 
 var layout = { 
-title: '🐾',
+title: ' ',
    font: {
     size: 15,
     family: 'Helvetica, sans-serif', 
@@ -133,6 +133,10 @@ title: '🐾',
   plot_bgcolor:'rgba(0, 0, 0, 0)',
   paper_bgcolor:'rgba(0, 0, 0, 0)',
 };
+
+Plotly.newPlot('myDiv', data, layout, {displayModeBar: false,
+  showTips: false});
+
 
 var config = {responsive: true}
 
@@ -146,9 +150,9 @@ btnParty.addEventListener("click", () => {
     confetti("tsparticles", {
       angle: 90,
       count: 30,
-      position: { x: 50, y: 50 },
+      position: { x: 50, y: 90 },
       spread: 100,
-      startVelocity: 60,
+      startVelocity: 120,
       decay: 0.9,
       gravity: 1,
       drift: 0,
@@ -160,3 +164,45 @@ btnParty.addEventListener("click", () => {
       disableForReducedMotion: true
     });
   });
+
+
+var data = [{
+    values: [4382, 3197],
+    labels: ['BOY', 'GIRL'],
+    type: 'pie',
+    marker: {
+      colors: [
+        'rgba(150, 110, 5, 0.95)',
+        'rgb(255, 230, 30)',
+      ]
+    }
+  }];
+  
+  var layout = {
+    height: 700,
+    width: 700
+  };
+  
+
+  var layout = { 
+    title: ' ',
+       font: {
+        size: 15,
+        family: 'Helvetica, sans-serif', 
+        color: 'white',
+    },
+    
+      plot_bgcolor:'rgba(0, 0, 0, 0)',
+      paper_bgcolor:'rgba(0, 0, 0, 0)',
+    };
+    
+    Plotly.newPlot('gender', data, layout, {displayModeBar: false,
+      showTips: false});
+
+  var config = {responsive: true}
+
+
+Plotly.newPlot('gender', data, layout, config );
+
+  
+Plotly.newPlot('gender', data, layout);
