@@ -168,11 +168,11 @@ btnParty.addEventListener("click", () => {
 
 var data = [{
     values: [4382, 3197],
-    labels: ['BOY', 'GIRL'],
+    labels: ['BOYS', 'GIRLS'],
     type: 'pie',
     marker: {
       colors: [
-        'rgba(150, 110, 5, 0.95)',
+        'rgba(221, 140, 0, 0.85)',
         'rgb(255, 230, 30)',
       ]
     }
@@ -187,7 +187,7 @@ var data = [{
   var layout = { 
     title: ' ',
        font: {
-        size: 15,
+        size: 25,
         family: 'Helvetica, sans-serif', 
         color: 'white',
     },
